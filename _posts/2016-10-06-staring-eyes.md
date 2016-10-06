@@ -5,7 +5,7 @@ description: ""
 tags: [photo]
 ---
 
-Not ready for bet yet.
+Not ready for bed yet.
 
 <figure>
     <img src="/images/staring_small.jpg">
