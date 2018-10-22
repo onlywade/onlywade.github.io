@@ -39,20 +39,22 @@ timezone:    America/Los_Angeles
 future:      false  # publish future dated posts --  true, false (default)
 highlighter: rouge
 markdown:    kramdown
-gems:
-  - jekyll-sitemap
-  - jekyll-paginate
-  - jekyll-gist
-  - jekyll-feed
 sass:
   sass_dir: _sass
   style: compressed
 
+plugins:
+  - jekyll-paginate-v2
+
+pagination:
+  enabled: true
+  debug: false
+  collection: 'posts'
+  per_page: 10
+  sort_reverse: true
+
 # https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink:   /:categories/:title/
-
-# Amount of post to show on home page
-paginate: 5
 
 kramdown:
   input: GFM
